@@ -24,11 +24,11 @@ import cohere
 from qdrant_client import QdrantClient
 
 # Initialize Cohere client
-cohere_client = cohere.Client("2hTyUlJ7drRynIZdkjXQpFl501UyV03lH6XljcFP")
+cohere_client = cohere.Client("Cohere-api-key")
 # Connect to Qdrant
 qdrant = QdrantClient(
-url="https://4fe17c5f-8b1b-4394-9d5c-7615c361cdd9.europe-west3-0.gcp.cloud.qdrant.io:6333", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.V4wh4-lPgtlfBjINGoUGBoGSqHvLczun-isqkDF5ETg",
+url="qdrant-url", 
+    api_key="qdrant-api-key",
 
 )
 
