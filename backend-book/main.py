@@ -9,16 +9,16 @@ import cohere
 # CONFIG
 # -------------------------------------
 # Your Deployment Link:
-SITEMAP_URL = "https://physicalhumanoidaitextbook.vercel.app/sitemap.xml"
+SITEMAP_URL = "https://ai-project-book-ismat.vercel.app/sitemap.xml"
 COLLECTION_NAME = "humanoid_ai_book"
 
-cohere_client = cohere.Client("2hTyUlJ7drRynIZdkjXQpFl501UyV03lH6XljcFP")
+cohere_client = cohere.Client("cohere-api-key")
 EMBED_MODEL = "embed-english-v3.0"
 
 # Connect to Qdrant Cloud
 qdrant = QdrantClient(
-url="https://4fe17c5f-8b1b-4394-9d5c-7615c361cdd9.europe-west3-0.gcp.cloud.qdrant.io:6333", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.V4wh4-lPgtlfBjINGoUGBoGSqHvLczun-isqkDF5ETg",
+url="qdrant-url", 
+    api_key="qdrant-api-key",
 
 )
 
